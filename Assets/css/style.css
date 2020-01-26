@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+
+#logo{
+  font-family: "Lobster";
+}
+
+.parrtxt{
+  font-size: 20px;
+}
+
+.col-lg-6 h5{
+  font-weight: 700;
+}
+
+.parrtxt .col-lg-6 hr{
+  width: 140px;
+  padding: 0px;
+  margin: 0px;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+.imghero{
+  width: 100%;
+}
+
+.txthero{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.subtit{
+  font-weight: 700;
+}
+
+.carousel-indicators li{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: black;
+}
+.card-title{
+  font-weight: 700;
+}
+
+.centrartxt{
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.text-center{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.carrusimg{
+  width: 230px;
+}
+
+#txtfot{
+  font-weight: 700;
+}
+
+.fut{
+  text-align: center;
+  font-family: "Lobster";
+  color: white;
+}
+
+.espam{
+  font-family: "Lobster";
+}
+
+.prefoot{
+  background: #DC3545;
+  color: white;
+}
+
+.marg{
+  margin-top: 230px;
+}
+
+.tamimg{
+  height: 409px;
+}
+
+.boto3{
+  width: 122px;
+  margin-right: 23px;
+  height: 40px;
+}
+
+.boto2{
+  width: 122px;
+  height: 40px
+}
+
+
+@media only screen and (max-width: 600px) {
+.txthero {
+    font-size: 30px;
+    text-align: center;
+  }
+.subtit{
+  text-align: center;
+}
+  .centrartxt{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #txtfot{
+    font-size: 35px;
+  }
+
+  .parrtxt{
+    padding-top: 40px;
+  }
+
+h4{
+    font-size: 21px;
+    padding-top: 13px;
+  }
+}
